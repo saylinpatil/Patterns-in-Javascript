@@ -1,0 +1,16 @@
+let n=6;
+for(let i=1;i<=n;i++){
+    output="";
+    for(let j=1;j<=n;j++){
+        output+="* ";
+    }
+    console.log(output);
+}
+
+
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
