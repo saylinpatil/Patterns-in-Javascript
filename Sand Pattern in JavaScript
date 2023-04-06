@@ -1,0 +1,35 @@
+let n=6;
+for(let i=n;i>1;i--){
+  
+  output="";
+  for(let j=i;j<=n;j++){
+    output+="  ";
+  }
+  for(let k=2;k<=(2*i);k++){
+    output+="* ";
+  }
+  console.log(output);
+}
+for(let i=1;i<=n;i++){
+  
+  output="";
+  for(let j=i;j<=n;j++){
+    output+="  ";
+  }
+  for(let k=2;k<=(2*i);k++){
+    output+="* ";
+  }
+  console.log(output);
+}
+
+  * * * * * * * * * * * 
+    * * * * * * * * * 
+      * * * * * * * 
+        * * * * * 
+          * * * 
+            * 
+          * * * 
+        * * * * * 
+      * * * * * * * 
+    * * * * * * * * * 
+  * * * * * * * * * * * 
