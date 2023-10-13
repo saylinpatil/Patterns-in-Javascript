@@ -1,0 +1,21 @@
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+  let output = "";
+
+  for (let j = i; j <= n; j++) {
+    output += " ";
+  }
+  for (let j = 1; j < (2 * i); j++) {
+    output += i
+  }
+  console.log(output);
+}
+
+Output-
+
+     1
+    222
+   33333
+  4444444
+ 555555555
