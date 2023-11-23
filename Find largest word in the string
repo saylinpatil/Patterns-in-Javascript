@@ -1,0 +1,11 @@
+let inputString = "full stack javaScript developer";
+
+let words = inputString.replace(/[^a-zA-Z0-9]+/g, " ").split(" ");
+let largestWord = "";
+
+for(let word of words) {
+   if(word.length > largestWord.length) {
+     largestWord = word;
+   }
+}
+console.log(largestWord);
